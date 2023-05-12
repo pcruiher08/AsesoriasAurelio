@@ -10,7 +10,7 @@ int main(){
 
 
 int cantidadDeCiudades = 3; 
-//arreglo estatico de ciudades
+//arreglo estatico de ciudades declarado y asignado
 string ciudades[] = {"CDMX", "Monterrey", "Guadalajara"};
 
 cout<<"Imprimiendo el arreglo de ciudades"<<endl;
@@ -23,6 +23,7 @@ for(int i = 0; i < cantidadDeCiudades; i++){
 
 int cantidadDePaises = 4;
 
+//arreglo estatico de paises declarado y luego asignado
 string paises[cantidadDePaises];
 
 paises[0] = "Alemania";
